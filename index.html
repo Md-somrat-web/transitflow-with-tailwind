@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyul cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- font awesmoe -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TransitFlow</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-300 px-16">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"
+            ><img class="w-14" src="imges/faveicon.png" alt="" />TransitFlow</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <details>
+                <summary>Home</summary>
+                <ul class="p-2">
+                  <li><a>Home page 1</a></li>
+                  <li><a>Home page 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Pages</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Service</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>News</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Product</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Client Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- navber end -->
+    <!-- banner start -->
+    <div class="bg-[url('/imges/truck1.jpg')] h-[100vh] bg-opacity-70">
+      <div class="pl-40 pt-60">
+        <div class="space-y-5">
+          <h2 class="text-5xl text-white font-bold">
+            Empowering Cities with <br />
+            Smart Transit Solutions
+          </h2>
+          <p class="text-white">
+            Discover how TransitFlow transforms urban mobility with cutting-edge
+            transit solutions,<br />ransforms urban mobility with cutting-edge
+          </p>
+          <button class="btn btn-warning">Get a Quote</button>
+        </div>
+      </div>
+    </div>
+    <div class="container my-24 mx-auto">
+      <div class="text-center">
+        <h2 class="text-[#ffc107]">WORKING PROCESS</h2>
+        <p class="text-3xl font-bold">
+          Streamlined Steps for Efficient <br />
+          Transit Management
+        </p>
+      </div>
+      <!--  card-->
+      <div class="grid md:grid-cols-4 lg: grid-cols-1 mt-14">
+        <div class="space-y-5 text-center items-center justify-center">
+          <i
+            class="fa-solid fa-warehouse text-5xl bg-white border border-[#ffc107] px-5 py-6 rounded-full text-center text-[#ffc107] hover:bg-[#ffc107] hover:text-black transition-all duration-300"
+          ></i>
+          <div class="text-center space-x-5">
+            <h2 class="text-2xl font-bold">
+              Order <br />
+              Management
+            </h2>
+            <p>
+              Streamlining order <br />
+              handling for efficiency, <br />
+              accuracy, and customer <br />
+              satisfaction.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-5 text-center items-center justify-center">
+          <i
+            class="fa-solid fa-warehouse text-5xl bg-white border border-[#ffc107] px-5 py-6 rounded-full text-center text-[#ffc107] hover:bg-[#ffc107] hover:text-black transition-all duration-300"
+          ></i>
+          <div class="text-center space-x-5">
+            <h2 class="text-2xl font-bold">
+              Distribution <br />
+              Center
+            </h2>
+            <p>
+              Central hub for <br />
+              receiving, storing, and <br />
+              distributing products <br />
+              efficiently.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-5 text-center items-center justify-center">
+          <i
+            class="fa-solid fa-warehouse text-5xl bg-white border border-[#ffc107] px-5 py-6 rounded-full text-center text-[#ffc107] hover:bg-[#ffc107] hover:text-black transition-all duration-300"
+          ></i>
+          <div class="text-center space-x-5">
+            <h2 class="text-2xl font-bold">Order Progress</h2>
+            <p>
+              Track your order <br />
+              progress in real-time <br />
+              for seamless delivery <br />
+              updates.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-5 text-center items-center justify-center">
+          <i
+            class="fa-solid fa-warehouse text-5xl bg-white border border-[#ffc107] px-5 py-6 rounded-full text-center text-[#ffc107] hover:bg-[#ffc107] hover:text-black transition-all duration-300"
+          ></i>
+          <div class="text-center space-x-5">
+            <h2 class="text-2xl font-bold">Product Delivery</h2>
+            <p>
+              Ensuring timely, <br />
+              accurate delivery of <br />
+              products to your <br />
+              doorstep.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-24 mx-24 grid grid-cols-2">
+      <div>
+        <img class="max-w-96 h-auto" src="imges/about-img.jpg" alt="" />
+      </div>
+      <div>
+        <h3 class="text-[#ffc107]">ABOUT US</h3>
+        <p class="text-5xl font-bold">
+          Dependable Transit <br />
+          Solutions Save You <br />
+          Time!
+        </p>
+        <p class="pt-5 font-semibold">
+          Streamlined, Efficient, and Reliable Transport for Your Daily Commute
+        </p>
+        <p class="pt-5">
+          Dependable transit solutions save you time by optimizing routes,
+          minimizing delays, and ensuring reliable transportation for your daily
+          needs.With our trusted transit services, you can count on punctual
+          arrivals, seamless connections, and efficient journeys, giving you
+          more time to focus on what matters most to you. Say goodbye to waiting
+          and hello to a smoother commute!
+        </p>
+        <button class="btn btn-warning my-10">Get a Quote</button>
+      </div>
+    </div>
+  </body>
+</html>
